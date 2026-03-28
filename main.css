@@ -1,4 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+  font-family: "Advent Pro", sans-serif;
+  
+}
+body {
+  background-image: url('https://i.pinimg.com/736x/4a/78/09/4a78096f653cdf99101b80eebe657795.jpg');
+  background-size: cover; 
+}
 nav{
   font-family: "Hachi Maru Pop", cursive;
   font-weight: 400;
@@ -33,8 +41,8 @@ nav ul li{
 nav ul li a{
   text-decoration: none;
   padding: 9px 25px 0 25px;
-  color: #b2ec5d;
-  background-color: #3d642d;
+  color: #577;
+  background-color: #2346;
 }
 nav ul li ul{
   position: absolute;
@@ -50,4 +58,38 @@ nav ul li ul li{
 }
 img{
   height: 190px;
+}
+.carousel{
+  width: 30%;
+  float: right;
+}
+.carousel-inner{
+  display: flex;
+}
+.carousel-item img{
+  width: 100%;
+  height: 100%;
+}
+.footer-columns {
+	 display: flex;
+}
+.footer-column {
+	 flex: 50%;
+margin: 20px;
+}
+header, footer {
+	 background-color: #9debf5;
+padding: 10px;
+}
+header img{
+  height: 60px;
+}
+main {
+padding: 10px;
+background-color: rgb(255,255,255,0.4);
+font-size: 150%;
+font-weight: bold;
+}              
+h1 {                
+  font-size: 90em;  
 }
